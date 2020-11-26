@@ -170,13 +170,14 @@ span
     box-sizing: border-box;
 }
 
-
-.hébergementmain
+.Hébergements
 {
-    display: grid;
-    column-gap: 2rem;
-    row-gap: 2rem;
+    display: flex;
 }
+
+
+
+
 
 .hébergementmainrésult
 {
@@ -187,7 +188,7 @@ span
     transition-duration: 0.1s;
     cursor: pointer;
     box-sizing: border-box;
-    height: 100%;
+   
 }
 
 div
@@ -262,4 +263,21 @@ p
     background-color: #F2F2F2;
     border-radius: 1.5rem;
     padding: 2rem;
+
 }
+
+.hébergementmain h2
+{
+    font-size: 1rem;
+}
+
+.fa-star
+{
+    color: ;
+}
+
+.Hébergementpopulaire
+{
+    order: 1;
+}
+
