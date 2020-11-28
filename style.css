@@ -170,7 +170,7 @@ span
     box-sizing: border-box;
 }
 
-.Hébergements
+.Hebergements
 {
     display: flex;
 }
@@ -179,7 +179,7 @@ span
 
 
 
-.hébergementmainrésult
+.hebergementMain-result
 {
     background-color: white;
     padding: 0.375rem;
@@ -203,7 +203,7 @@ a
     background-color: transparent;
 }
 
-.hébergementmainrésultfig
+.hebergementMain-result-fig
 {
     margin: 0;
 }
@@ -218,7 +218,7 @@ figure
     margin-inline-end: 40px;
 }
 
-.hébergementmainrésultfigimg
+.hebergementMain-result-fig-img
 {
     height: 7rem;
     object-fit: cover;
@@ -233,7 +233,7 @@ figcaption
     display: block;
 }
 
-.hébergementmainrésultfigcaptiontitle
+.hebergementMain-result-fig-caption-title
 {
     margin: 0.25rem 0.75rem 0 0.75rem;
 }
@@ -248,17 +248,22 @@ p
 }
 
 
-.hébergementmainrésultstar
+.hebergementMain-result-star
 {
     margin: 0 0.75rem 0.25rem 0.75rem;
 }
 
-.hébergementmainrésultstaricon
+.hebergementMain-result-star-icon
 {
     color: blue;
 }
 
-.hébergementmain
+.hebergementMain-result-star-iconG
+{
+    color: grey;
+}
+
+.hebergementMain
 {
     background-color: #F2F2F2;
     border-radius: 1.5rem;
@@ -266,15 +271,22 @@ p
 
 }
 
-.hébergementmain h2
+.hebergementMain h2
 {
     font-size: 1rem;
 }
 
 
 
-.Hébergementpopulaire
+.Hebergement-populaire h2
 {
     order: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fa-chart-line
+{
+    margin-left: 10%;
 }
 
