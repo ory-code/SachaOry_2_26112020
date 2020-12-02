@@ -270,6 +270,7 @@ p
     background-color: #F2F2F2;
     border-radius: 1.5rem;
     padding: 2rem;
+    order: 2;
 
 }
 
@@ -292,7 +293,8 @@ p
 {
     display: flex;
     font-size: 1.5rem;
-    justify-content: flex-start;
+    justify-content: space-between;
+    width: 35%;
     
 }
 .hebergementMain-result-pop
@@ -307,13 +309,38 @@ p
    margin-bottom: 2rem;
 }
 
-
-
-
-
-
 .fa-chart-line
 {
     margin-left: 10%;
 }
 
+.Activites
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.resultatsactivite
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding: 0.5rem;
+    margin-top: auto;
+    
+}
+
+li
+{
+    list-style-type: none;
+    padding: 0.5rem;
+}
