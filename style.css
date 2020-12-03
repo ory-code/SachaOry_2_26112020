@@ -128,15 +128,34 @@ nav
     margin-right: 1rem;
     color: #0065FC;
 }
-    
+
+.resultfilter
+{
+    display: flex;
+    flex-direction: column;
+}
+    @media (min-width:670px) and (max-width:1023px)
+    {
+        .resultfilter {
+            flex-direction: row;
+        }
+        .filter
+        {
+            max-width: 200px;
+        }
+
+    }
+
+
+
 .filter
 {
     display: flex;
     align-items: center;
-    margin-right: 2rem;
+    margin: 1rem;
     border: 2px solid #d9d9d9;
     border-radius: 2rem;
-    margin-bottom: 1rem;
+    
     cursor: pointer;
     transition-duration: 0.1s;
     font-weight: bold;
@@ -172,7 +191,7 @@ span
     
     display: flex;
     text-align: center;
-   padding-left: 20%;
+   padding-left: 10%;
     
 }
 
@@ -238,7 +257,7 @@ figure
 
 .hebergementMain-result-fig-img
 {
-    height: 7rem;
+    height: 115px;
     object-fit: cover;
     max-width: 100%;
     width: 100%;
