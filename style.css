@@ -70,13 +70,16 @@ header
 
 nav
 {
+    
     display: flex;
-    justify-content: space-between;
     margin: 15px;
     padding: 30px;
-    
 }
 
+.sub-menu
+{
+    position: static;
+}
 .Navheaderlink 
 {
     color: #0065FC;
@@ -145,9 +148,13 @@ nav
 
         nav 
         {
-            display: flex;
+            display: flex; 
             width: 200px;
             margin-right: 50px;
+        }
+        .sub-menu
+        {
+            display: flex;
         }
 
         .Navheaderlink
@@ -172,6 +179,7 @@ nav
         .Hebergements
         {
             width:  70%;
+            margin-top: 25px;
 
         }
         .hebergementMain
@@ -219,39 +227,31 @@ nav
         
         .hebergement-populaire
         {
+            display: flex;
             width: 20%;
             max-height: 854px;
             position: absolute;
             right: 1%;
         }
 
-        
        
-
-
+       
+        
         .activites
         {
-            margin-top: 15rem;
-            margin-bottom: 15rem;
+            margin-top: 8rem;
+            margin-bottom: 5rem;
         }
         .activite-filtre
         {
             display: flex;
         }
-
-      
-
         .footer-text
         {
             display: flex;
             justify-content: space-around;
-        }
-
-
-
-       
-
-       
+        }    
+     
     }
 
 
@@ -406,10 +406,9 @@ a
 .hebergement-populaire h2
 {
     display: flex;
-    font-size: 1.5rem;
-    justify-content: space-between;
-    width: 35%;
-    
+    font-size: 1rem;
+    justify-content: space-around;
+    width: 100%;
 }
 
 
