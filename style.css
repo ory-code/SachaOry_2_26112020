@@ -136,6 +136,13 @@ header {
         margin: auto;
     }
 
+    header 
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+
     nav {
         display: flex;
         width: 200px;
