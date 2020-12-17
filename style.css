@@ -74,12 +74,8 @@ header {
     cursor: pointer;
 }
 
-
-
-
 .Navheaderlink {
     color: #0065FC;
-
 }
 
 .Navheaderlink-hover:hover {
@@ -109,12 +105,9 @@ header {
 #searchfoundtext {
     display: flex;
     align-items: center;
-
 }
 
 .info-icon {
-
-
     height: 2rem;
     width: 2rem;
     min-height: 2rem;
@@ -136,11 +129,15 @@ header {
         margin: auto;
     }
 
-    header 
-    {
+    header {
         display: flex;
         justify-content: space-between;
         margin-bottom: 3rem;
+    }
+
+    .Navheaderlink
+    {
+        border-top: 2px solid #0065FC;
     }
 
     nav {
@@ -194,7 +191,7 @@ header {
 
     .hebergementMain-result-fig {
         width: 190px;
-        
+
 
     }
 
@@ -225,8 +222,7 @@ header {
         right: 1%;
     }
 
-
-
+  
 
     .activites {
         margin-top: 8rem;
@@ -234,7 +230,43 @@ header {
     }
 
     .activite-filtre {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem
+    }
+
+    .result-activites-fig {
+        cursor: pointer;
+    }
+
+    .fig-1 {
+        grid-row: 2/7;
+        grid-column: 1/2;
+    }
+
+    .fig-2 {
+        grid-row: 2/5;
+        grid-column: 2/3;
+    }
+
+    .fig-3 {
+        grid-row: 6/7;
+        grid-column: 2/3;
+    }
+
+    .fig-4 {
+        grid-row: 2/7;
+        grid-column: 3/4;
+    }
+
+    .fig-5 {
+        grid-row: 2/3;
+        grid-column: 4/5;
+    }
+
+    .fig-6 {
+        grid-row: 4/7;
+        grid-column: 4/5;
     }
 
     .footer-text {
@@ -299,11 +331,9 @@ header {
 
 
 span {
-
     display: flex;
     justify-content: center;
     margin: 1rem;
-
 }
 
 .main {
