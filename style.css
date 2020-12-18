@@ -172,7 +172,7 @@ header {
     .Hebergements {
         gap: 1rem;
         margin-top: 25px;
-        flex-direction: ;
+        
     }
 
     .hebergementMain {
@@ -213,9 +213,17 @@ header {
     }
 
     aside {
+        position: absolute;
+        right: 5%;
+        
         width: 25%;
         order: 3;
         justify-content: center;
+    }
+
+    aside .pop
+    {
+        width: 300px;
     }
 
 
@@ -223,6 +231,7 @@ header {
 
 
     .activites {
+        margin-top: 10rem;
         margin-bottom: 5rem;
     }
 
