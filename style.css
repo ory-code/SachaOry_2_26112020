@@ -170,9 +170,9 @@ header {
     }
 
     .Hebergements {
-        gap: 1rem;
-        margin-top: 25px;
-        
+       
+        gap: 0.5rem;
+        margin-top: 25px;  
     }
 
     .hebergementMain {
@@ -213,25 +213,19 @@ header {
     }
 
     aside {
-        position: absolute;
-        right: 5%;
-        
+     
         width: 25%;
-        order: 3;
+       
         justify-content: center;
     }
 
     aside .pop
     {
-        width: 300px;
+        width: 70%;
     }
 
-
-
-
-
     .activites {
-        margin-top: 10rem;
+        margin-top: 5rem;
         margin-bottom: 5rem;
     }
 
@@ -280,6 +274,11 @@ header {
     .activite-filtre figcaption {
         padding: 1rem;
 
+    }
+
+    .fig-1 img,
+    .fig-4 img {
+    height: 315px;
     }
 
     .activite-filtre h3 {
@@ -426,6 +425,7 @@ a {
 }
 
 .hebergementMain h2 {
+    padding-left: 5px;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -458,8 +458,8 @@ a {
 
 
 .result-activites-fig {
+   
     margin: 20px;
-
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     overflow: hidden;
@@ -469,6 +469,7 @@ a {
 }
 
 .result-activites-fig-img {
+    
     height: 7rem;
     object-fit: cover;
     max-width: 100%;
@@ -477,9 +478,10 @@ a {
     border-radius: 1rem 1rem 0 0;
 }
 
-.fig-1 img,
-.fig-4 img {
-    height: 315px;
+.activite-filtre h3 
+{
+    padding: 5px;
+    font-size: 1rem;
 }
 
 footer {
