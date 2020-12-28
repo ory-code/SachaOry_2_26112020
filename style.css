@@ -77,6 +77,8 @@ header {
 
 .Navheaderlink {
     color: #0065FC;
+    border-top: none;
+    
 }
 
 .Navheaderlink-hover:hover {
@@ -170,10 +172,8 @@ header {
     }
 
     .Hebergements {
-       
         gap: 0.5rem;
-        margin-top: 25px;  
-        
+        margin-top: 25px;
     }
 
     .hebergementMain {
@@ -214,35 +214,35 @@ header {
     }
 
     aside {
-     
+
         width: 25%;
-       position: absolute;
-       right: 5%;
+        position: absolute;
+        right: 5%;
         justify-content: center;
         height: 555px;
     }
 
-    aside .pop
-    {
+    aside .pop {
         width: 300px;
         display: flex;
-        justify-content: flex-start;
-        align-items: stretch;
+        justify-content: space-between;
+       
     }
-    aside .hebergementMain-result-fig-img {
-     margin-right: 10px;
-     width: 135px;
-     border-radius: 1rem 0 0 1rem;
-     object-fit: cover;
-    }
-    
 
-  .pop-filtre
-  {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
+    aside .hebergementMain-result-fig-img {
+        margin-right: 10px;
+        width: 135px;
+        border-radius: 1rem 0 0 1rem;
+        object-fit: cover;
+        min-width: 32%;
+    }
+   
+    .pop-filtre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .activites {
         margin-top: 8.5rem;
         margin-bottom: 5rem;
@@ -297,7 +297,7 @@ header {
 
     .fig-1 img,
     .fig-4 img {
-    height: 315px;
+        height: 315px;
     }
 
     .activite-filtre h3 {
@@ -475,7 +475,7 @@ a {
 
 
 .result-activites-fig {
-   
+
     margin: 20px;
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
@@ -486,7 +486,7 @@ a {
 }
 
 .result-activites-fig-img {
-    
+
     height: 7rem;
     object-fit: cover;
     max-width: 100%;
@@ -495,8 +495,7 @@ a {
     border-radius: 1rem 1rem 0 0;
 }
 
-.activite-filtre h3 
-{
+.activite-filtre h3 {
     padding: 5px;
     font-size: 1rem;
 }
