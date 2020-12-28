@@ -219,13 +219,30 @@ header {
        position: absolute;
        right: 5%;
         justify-content: center;
+        height: 555px;
     }
 
     aside .pop
     {
-        width: 70%;
+        width: 300px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: stretch;
     }
+    aside .hebergementMain-result-fig-img {
+     margin-right: 10px;
+     width: 135px;
+     border-radius: 1rem 0 0 1rem;
+     object-fit: cover;
+    }
+    
 
+  .pop-filtre
+  {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
     .activites {
         margin-top: 8.5rem;
         margin-bottom: 5rem;
@@ -401,8 +418,6 @@ a {
     transition-duration: 0.1s;
     cursor: pointer;
     box-sizing: border-box;
-    margin-bottom: 2rem;
-    padding: 10px;
 }
 
 .hebergementMain-result-fig-img {
