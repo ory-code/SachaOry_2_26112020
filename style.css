@@ -225,8 +225,7 @@ header {
     aside .pop {
         width: 300px;
         display: flex;
-        justify-content: space-between;
-       
+        
     }
 
     aside .hebergementMain-result-fig-img {
@@ -235,7 +234,12 @@ header {
         border-radius: 1rem 0 0 1rem;
         object-fit: cover;
         min-width: 32%;
+        float: left; 
     }
+
+   
+    
+    
    
     .pop-filtre {
         display: flex;
