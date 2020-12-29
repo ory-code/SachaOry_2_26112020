@@ -78,7 +78,7 @@ header {
 .Navheaderlink {
     color: #0065FC;
     border-top: none;
-    
+    border-bottom: solid #0065FC 1px;
 }
 
 .Navheaderlink-hover:hover {
@@ -140,7 +140,7 @@ header {
 
     .Navheaderlink {
         border-top: 2px solid #0065FC;
-        padding-bottom: 1;
+       
     }
 
     nav {
