@@ -15,9 +15,7 @@ header {
     align-items: center;
 }
 
-.Navheaderlink {
-    border-top: 2px solid #0065FC;
-}
+
 
 .sub-menu {
     display: flex;
@@ -37,8 +35,6 @@ header {
 
 #searchform {
     display: flex;
-
-
 }
 
 .searchforminput {
@@ -69,16 +65,15 @@ header {
     font-weight: bold;
     border: none;
     border-radius: 0 1rem 1rem 0;
-    padding: 01.3rem;
+    padding: 1.03rem;
     font-family: "Raleway", "Sans serif";
     font-size: 1rem;
     cursor: pointer;
+    
 }
 
 .Navheaderlink {
     color: #0065FC;
-    border-top: none;
-    border-bottom: solid #0065FC 1px;
 }
 
 .Navheaderlink-hover:hover {
@@ -139,23 +134,19 @@ header {
     }
 
     .Navheaderlink {
-        border-top: 2px solid #0065FC;
-       
+        margin-right: 10px;
     }
 
     nav {
         display: flex;
         width: 200px;
         margin-right: 50px;
+        
     }
-
+    
     .sub-menu {
         display: flex;
         position: static;
-    }
-
-    .Navheaderlink {
-        margin-right: 10px;
     }
 
     .Navheaderlink-hover {
@@ -223,7 +214,7 @@ header {
     }
 
     aside .pop {
-        width: 300px;
+        width: 315px;
         display: flex;
         
     }
@@ -234,18 +225,16 @@ header {
         border-radius: 1rem 0 0 1rem;
         object-fit: cover;
         min-width: 32%;
-        float: left; 
+        
+        
     }
 
-   
-    
-    
-   
     .pop-filtre {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+    
 
     .activites {
         margin-top: 8.5rem;
