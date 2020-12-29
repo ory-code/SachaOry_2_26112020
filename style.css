@@ -140,10 +140,11 @@ header {
     nav {
         display: flex;
         width: 200px;
-        margin-right: 50px;
-        
+        margin-right: 50px;        
     }
-    
+    nav .active {
+        border-top: solid #0065FC 2px;
+    }
     .sub-menu {
         display: flex;
         position: static;
