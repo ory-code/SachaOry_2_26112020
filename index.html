@@ -17,10 +17,16 @@
       <img class="logobox" src="img\logo\Reservia@3x.png" width="115" height="45" alt="logo reservia">
 
       <nav class="Navheaderbox">
-        <div class="sub-menu">
-          <a class="Navheaderlink active" href="hebergements" data-active="true">Hébergements</a>
-          <a class="Navheaderlink-hover" href="Activites" data-active="false">Activités</a>
-        </div>
+        
+          <ul class="sub-menu">
+            <li class="active">
+              <a class="Navheaderlink" href="hebergements" data-active="true">Hébergements</a>
+          </li>
+          <li>
+          <a class="Navheaderlink-hover" href="activites" data-active="false">Activités</a>
+        </li>
+        </ul>
+        
         <a class="inscriptionbox" href="#">S'inscrire</a>
       </nav>
     </header>
@@ -74,7 +80,7 @@
       </section>
 <!--Search-->
 <!--hebergement-->
-      <section class="Hebergements">
+      <section id="hebergements" class="Hebergements">
         <aside class="hebergement-populaire">
           <h2 class="hebergement-populaire-titre">Les plus populaires<i class="fas fa-chart-line"></i></h2>
           <div class="pop-filtre">
@@ -83,7 +89,7 @@
               alt="hôtel soleil du matin">
             <figcaption class="hebergementMain-result-fig-caption">
               <h3 class="hebergementMain-result-fig-caption-title">Hôtel soleil du matin</h3>
-            </figcaption>
+            
             <p class="hebergementMain-result-description">
               "Nuit à partir de" <strong class="hebergementMain-resultr-descriptionr-price">128€</strong>
             </p>
@@ -94,6 +100,7 @@
               <i class="fas fa-star hebergementMain-result-star-icon" data-active="true" aria-hidden="true"></i>
               <i class="fas fa-star hebergementMain-result-star-icon" data-active="false" aria-hidden="true"></i>
             </div>
+          </figcaption>
           </figure>
         
 
@@ -248,7 +255,7 @@
       </section>
 <!--hebergement-->
 <!--activites-->
-      <section class="activites">
+      <section id="activites" class="activites">
         <h2>Activités à Marseille</h2>
         <div class="activite-filtre">
           <figure class="result-activites-fig fig-1">

@@ -24,7 +24,12 @@ header {
     left: 0;
     right: 0;
     top: 70px;
-    height: 0;
+    
+}
+
+.sub-menu .active
+{
+    border-bottom: solid #0065FC 2px;
 }
 
 
@@ -69,7 +74,7 @@ header {
     font-family: "Raleway", "Sans serif";
     font-size: 1rem;
     cursor: pointer;
-    
+
 }
 
 .Navheaderlink {
@@ -131,6 +136,7 @@ header {
         display: flex;
         justify-content: space-between;
         margin-bottom: 3rem;
+        align-items: center;
     }
 
     .Navheaderlink {
@@ -139,15 +145,23 @@ header {
 
     nav {
         display: flex;
-        width: 200px;
-        margin-right: 50px;        
+        align-items: center;
+        justify-content: space-between;
     }
-    nav .active {
-        border-top: solid #0065FC 2px;
+
+    .sub-menu .active {
+        border-top: #0065FC solid 2px;
+        border-bottom: none;
     }
+
     .sub-menu {
         display: flex;
         position: static;
+    }
+    .sub-menu li 
+    {
+        display: table;
+        border-spacing: 2rem;
     }
 
     .Navheaderlink-hover {
@@ -215,7 +229,7 @@ header {
     }
 
     aside .pop {
-        width: 315px;
+        width: 354px;
         display: flex;
         
     }
@@ -226,8 +240,9 @@ header {
         border-radius: 1rem 0 0 1rem;
         object-fit: cover;
         min-width: 32%;
-        
-        
+        float: left;
+
+
     }
 
     .pop-filtre {
@@ -235,7 +250,7 @@ header {
         flex-direction: column;
         align-items: center;
     }
-    
+
 
     .activites {
         margin-top: 8.5rem;
