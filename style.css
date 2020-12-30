@@ -11,7 +11,7 @@ header {
     display: flex;
     justify-content: space-around;
     max-width: 1440px;
-    margin-bottom: 15%;
+    margin-bottom: 25%;
     align-items: center;
 }
 
@@ -24,7 +24,6 @@ header {
     left: 0;
     right: 0;
     top: 70px;
-    
 }
 
 .sub-menu .active
@@ -388,6 +387,7 @@ span {
     margin: auto;
     padding: 0 2rem;
     box-sizing: border-box;
+    margin-top: 2;
 }
 
 .Hebergements {
